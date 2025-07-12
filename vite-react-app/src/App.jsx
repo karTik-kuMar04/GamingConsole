@@ -8,7 +8,7 @@ import CoinFlip from "./Games/CoinFlip.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/GamingConsole">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rps" element={<RockPaperScissors />} />
